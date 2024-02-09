@@ -1203,10 +1203,11 @@
 	description = "Computers and how they work."
 	prereq_ids = list("datatheory")
 	design_ids = list(
+		"bankmachine",
+		"barcode_scanner",
 		"cargo",
 		"cargorequest",
 		"comconsole",
-		"bankmachine",
 		"crewconsole",
 		"idcard",
 		"libraryconsole",
@@ -1496,6 +1497,9 @@
 		"superresonator",
 		"triggermod",
 		"mining_scanner",
+		"brm",
+		"b_smelter",
+		"b_refinery",
 	)//e a r l y    g a  m e)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 

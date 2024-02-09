@@ -19,6 +19,7 @@
 #define COLOR_WHITE "#FFFFFF"
 #define COLOR_OFF_WHITE "#FFF5ED"
 #define COLOR_VERY_LIGHT_GRAY "#EEEEEE"
+#define COLOR_LIGHT_FIXTURE_NORMAL "#ccccff"
 #define COLOR_SILVER "#C0C0C0"
 #define COLOR_GRAY "#808080"
 #define COLOR_FLOORTILE_GRAY "#8D8B8B"
@@ -222,7 +223,7 @@
  * Important note: colors can end up significantly different from the basic html picture, especially when saturated
  */
 /// Bright light used by default in tubes and bulbs
-#define LIGHT_COLOR_DEFAULT "#DEEFFF" // EffigyEdit Change - Lighting
+#define LIGHT_COLOR_DEFAULT "#D4D4FF" // EffigyEdit Change - Lighting
 /// Bright but quickly dissipating neon green. rgb(100, 200, 100)
 #define LIGHT_COLOR_GREEN "#64C864"
 /// Bright, pale "nuclear" green. rgb(120, 255, 120)
@@ -430,3 +431,5 @@ GLOBAL_LIST_INIT(cable_colors, list(
 	CABLE_COLOR_YELLOW = CABLE_HEX_COLOR_YELLOW,
 	CABLE_COLOR_BROWN = CABLE_HEX_COLOR_BROWN
 ))
+
+#define HUSK_COLOR_TONE rgb(96, 88, 80)

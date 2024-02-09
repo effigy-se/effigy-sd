@@ -448,7 +448,7 @@
 #define OFFSET_HELD "held"
 
 //MINOR TWEAKS/MISC
-#define AGE_MIN 18 //youngest a character can be // EffigyEdit Change Customization
+#define AGE_MIN 20 //youngest a character can be // EffigyEdit Change Customization
 #define AGE_MAX 85 //oldest a character can be
 #define AGE_MINOR 20 //legal age of space drinking and smoking
 #define WIZARD_AGE_MIN 30 //youngest a wizard can be
@@ -472,10 +472,6 @@
 #define FLASH_PROTECTION_NONE 0
 #define FLASH_PROTECTION_FLASH 1
 #define FLASH_PROTECTION_WELDER 2
-
-// Roundstart trait system
-
-#define MAX_QUIRKS 6 //The maximum amount of quirks one character can have at roundstart
 
 // AI Toggles
 #define AI_CAMERA_LUMINOSITY 5

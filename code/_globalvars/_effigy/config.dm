@@ -55,6 +55,17 @@ GLOBAL_VAR_INIT(looc_allowed, TRUE)
 /datum/config_entry/string/effigy_api_key
 	protection = CONFIG_ENTRY_LOCKED | CONFIG_ENTRY_HIDDEN
 
+/// New account registration URL
+/datum/config_entry/string/account_registration_url
+	protection = CONFIG_ENTRY_LOCKED | CONFIG_ENTRY_HIDDEN
+
+/// Lobby music track ID
+/datum/config_entry/string/pregame_lobby_track
+
+/// Lobby music track duration
+/datum/config_entry/number/pregame_lobby_duration
+	default = -1
+
 /datum/config_entry/number/cryo_min_ssd_time
 	default = 15
 
@@ -111,7 +122,12 @@ GLOBAL_VAR_INIT(looc_allowed, TRUE)
 	default = "Medical emergency in progress. Non-medical personnel are required to obey all relevant instructions from medical staff. All crew are advised to minimize unecessary contact when possible and proceed to medbay for vaccination when advised."
 
 /datum/config_entry/number/jungle_budget
-	default = 4
+	default = 2
 	integer = FALSE
 	min_val = 0
 
+// Please note the intended jungle caves budget will be ~8 depending on how many ruins there are - this is to avoid issues atm.
+/datum/config_entry/number/jungle_cave_budget
+	default = 2
+	integer = FALSE
+	min_val = 0
