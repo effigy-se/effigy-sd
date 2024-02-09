@@ -15,6 +15,7 @@
 		#include "map_files\debug\effigy_liquids.dmm"
 		#include "map_files\FoxHoleStation\foxholestation.dmm"
 		#include "map_files\RimPoint\RimPoint.dmm"
+		#include "map_files\socialdistrict\socialdistrict.dmm"
 		// EFFIGY EDIT END
 		#ifdef CIBUILDING
 			#include "templates.dm"
